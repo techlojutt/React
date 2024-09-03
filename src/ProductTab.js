@@ -2,16 +2,15 @@ import Product from "./Product.js";
 import "./ProductTab.css"
 
 function ProductTab(){
-  let option1 = ["fast","reliable"];
+  let option1 = ["fast","reliable","hi-tech"];
   let option2 = {
-    size: "large",
-    color: "blue"
-  };
+    RAM: "8GB",
+    CPU: "i5",
+    GPU: "Nvidia GeForce GTX 1660"
+  }
     return(
         <div className = "ProductTab">
-          <Product title = "Phone" price = {30000} features2={["hi-tech","durable","fast"]}/> 
-          <Product title = "Laptop" price = {50000} features = {option1} />
-          <Product title = "Pen" price = {10} features3={{a:"hi-tech",b:"reliable"}}/> 
+          <Product title = "Laptop" price = {50000} features = {option1} features2 = {option2} />
         </div>
     )
 }
