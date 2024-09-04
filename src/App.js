@@ -1,5 +1,4 @@
 import "./App.css";
-import MsgBox from "./MsgBox.js";
 import ProductTab from "./ProductTab.js"
 
 
@@ -8,10 +7,7 @@ function App() {
    
   return (
     <div className = "App">
-      <MsgBox textColor = "yellow" userName = "shoaib" />
-      <MsgBox textColor = "green" userName = "bilal" />
-      <MsgBox textColor = "blue" userName = "ismail" />
-      <MsgBox textColor = "aqua" userName = "ibrahim" />
+      <h2>Blockbuster Deals | Shop Now</h2>
       <ProductTab/>
     </div>
   )
