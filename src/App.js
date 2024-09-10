@@ -1,15 +1,14 @@
+import React from 'react';
 import "./App.css";
-import ProductTab from "./ProductTab.js"
-
+import Form from  "./Form.js";
 
 // if we are not want to create an extra node of div then we use react fragment  <></>  
 function App() {
    
   return (
-    <div className = "App">
-      <h2>Blockbuster Deals | Shop Now</h2>
-      <ProductTab/>
-    </div>
+   <div>
+      <Form/>
+   </div>
   )
 }
 
