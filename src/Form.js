@@ -2,6 +2,8 @@
 function handleFormSubmit(event){
     console.log("Form was submitted");
     event.preventDefault();
+    console.log(event)
+    event.stopPropagation();
 };
 
 function Form(){

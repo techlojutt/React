@@ -1,13 +1,14 @@
 import React from 'react';
 import "./App.css";
-import Form from  "./Form.js";
+import LikeButton from './LikeButton'
+
 
 // if we are not want to create an extra node of div then we use react fragment  <></>  
 function App() {
    
   return (
    <div>
-      <Form/>
+      <LikeButton/>
    </div>
   )
 }
